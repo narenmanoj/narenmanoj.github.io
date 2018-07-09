@@ -1,0 +1,36 @@
+\documentclass{article}
+\include{includes}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+
+\begin{document}
+
+\section{On the Convergence of Adam and Beyond}
+
+\subsection{Recap of Adam}
+
+Before we jump into Adam's problems, we'll briefly recap the algorithm and its intuition. Below is the algorithm, adapted from \url{https://arxiv.org/abs/1412.6980}. 
+
+\begin{algorithm}[h!]
+\caption{Adam Optimizer}
+\begin{algorithmic}[1]
+    \STATE \textbf{Input}: stepsize $\alpha$, $\beta_1, \beta_2$ exponential decay rates, $f$ objective function, $\theta$ initial parameters
+    \STATE $m_0 \gets 0$
+    \STATE $v_0 \gets 0$
+    \STATE $t \gets 0$
+    \WHILE{$\theta_t$ not converged}
+      \STATE $t \gets t + 1$
+      \STATE $g_t \gets \nabla_{\theta}f_t(\theta_{t - 1})$
+      \STATE $m_t \gets \beta_1 \cdot m_{t - 1} + \paren{1 - \beta_1} \cdot g_t$
+      \STATE $v_t \gets \beta_2 \cdot v_{t - 1} + \paren{1 - \beta_2} \cdot g_t^2$
+      \STATE $\hat{m}_t \gets m_t/(1 - \beta_1^t)$
+      \STATE $\hat{v}_t \gets v_t/(1 - \beta_2^t)$
+      \STATE $\theta_t \gets \theta_{t - 1} - \alpha \cdot \hat{m}_{t - 1} / (\sqrt{\hat{v}_t} + \eps)$
+    \ENDWHILE
+    \STATE \textbf{Output}: $\theta_t$
+\end{algorithmic}
+\end{algorithm}
+
+The original proof proceeded something like below.
+
+\end{document}
