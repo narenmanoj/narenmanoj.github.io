@@ -42,6 +42,8 @@ PLUGINS = ['ipynb.markup']
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
+STATIC_PATHS = ['pdfs']
+
 MENUITEMS = (
     ('About', '/pages/about.html'),
     ('Blog', '/category/blog.html'),
