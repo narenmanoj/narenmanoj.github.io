@@ -1,39 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>Naren's Blog - posts</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Naren's Blog </a></h1>
-                <nav><ul>
-                    <li><a href="/pages/about.html">About</a></li>
-                    <li><a href="/category/blog.html">Blog</a></li>
-                    <li><a href="/pdfs/cv_july18.pdf">CV</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/first-post.html">First Post</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2016-06-08T20:00:00-05:00">
-                Published: Wed 08 June 2016
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/naren-manoj.html">Naren Manoj</a>
-        </address>
-<p>In <a href="/category/posts.html">posts</a>.</p>
-<p>tags: <a href="/tag/python-firsts.html">python firsts</a> </p>
-</footer><!-- /.post-info --><style type="text/css">/*!
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Naren's Blog</title><link href="https://narenmanoj.github.io/" rel="alternate"></link><link href="https://narenmanoj.github.io/feeds/posts.atom.xml" rel="self"></link><id>https://narenmanoj.github.io/</id><updated>2016-06-08T20:00:00-05:00</updated><entry><title>First Post</title><link href="https://narenmanoj.github.io/first-post.html" rel="alternate"></link><published>2016-06-08T20:00:00-05:00</published><updated>2016-06-08T20:00:00-05:00</updated><author><name>Naren Manoj</name></author><id>tag:narenmanoj.github.io,2016-06-08:first-post.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -260,7 +226,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell > div.prompt {
+  div.unrecognized_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -313,19 +279,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area > div.highlight {
+div.input_area &gt; div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area > div.highlight > pre {
+div.input_area &gt; div.highlight &gt; pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the <head> if it is detected that the user has a
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -371,7 +337,7 @@ div.input_area > div.highlight > pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
 Adapted from GitHub theme
 
 */
@@ -833,7 +799,7 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell > div.prompt {
+  div.text_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -898,8 +864,8 @@ h6:hover .anchor-link {
   font-size: 100%;
   font-style: italic;
 }
-</style>
-<style type="text/css">.highlight .hll { background-color: #ffffcc }
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -967,8 +933,8 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<style type="text/css">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -1004,59 +970,59 @@ h6:hover .anchor-link {
 .ansi-white-intense-bg { background-color: #A1A6B2; }
 
 .ansi-bold { font-weight: bold; }
-</style>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Certifying-some-Distributional-Robustness-with-Adversarial-Training">Certifying some Distributional Robustness with Adversarial Training<a class="anchor-link" href="#Certifying-some-Distributional-Robustness-with-Adversarial-Training">¶</a></h1><p>My thoughts:</p>
-<ul>
-<li>difficult read, but very satisfying</li>
-<li>reviews were extremely good, but raised some interesting concerns</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Solution-Outline">Solution Outline<a class="anchor-link" href="#Solution-Outline">¶</a></h2><ul>
-<li>discuss problem formulation (perturbed data distribution)</li>
-<li>discuss robust training procedure</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Before we begin, we'll state some notation:</p>
-<ul>
-<li>$P_0$ is a distribution on a space $\mathcal{Z}$. The authors call this the <em>data generating distribution</em>. </li>
-<li>$Z$ is our training data, which is sampled from this distribution.</li>
-<li>$l$ is the loss function we aim to minimize. The loss function is parametrized by $\theta$ and written as $l(\theta; Z)$. </li>
-<li>$\mathcal{P}$ is a family of distributions "close to" $P_0$. We will formalize our notion of "close to" shortly.</li>
-</ul>
-<p>We can now state our objective below.
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Certifying-some-Distributional-Robustness-with-Adversarial-Training"&gt;Certifying some Distributional Robustness with Adversarial Training&lt;a class="anchor-link" href="#Certifying-some-Distributional-Robustness-with-Adversarial-Training"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;My thoughts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;difficult read, but very satisfying&lt;/li&gt;
+&lt;li&gt;reviews were extremely good, but raised some interesting concerns&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Solution-Outline"&gt;Solution Outline&lt;a class="anchor-link" href="#Solution-Outline"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;discuss problem formulation (perturbed data distribution)&lt;/li&gt;
+&lt;li&gt;discuss robust training procedure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Before we begin, we'll state some notation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P_0$ is a distribution on a space $\mathcal{Z}$. The authors call this the &lt;em&gt;data generating distribution&lt;/em&gt;. &lt;/li&gt;
+&lt;li&gt;$Z$ is our training data, which is sampled from this distribution.&lt;/li&gt;
+&lt;li&gt;$l$ is the loss function we aim to minimize. The loss function is parametrized by $\theta$ and written as $l(\theta; Z)$. &lt;/li&gt;
+&lt;li&gt;$\mathcal{P}$ is a family of distributions "close to" $P_0$. We will formalize our notion of "close to" shortly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can now state our objective below.
 $$\min_{\theta \in \Theta} \sup_{P \in \mathcal{P}} \mathbb{E}_{P}\left[l(\theta; Z)\right]$$
-Intuitively, we are minimizing the worst case loss over distributions close to the one our training data was sampled from.</p>
-<p>Our next step is to characterize $\mathcal{P}$. To do so, the authors use a $\rho$-Wasserstein ball centered at $P_0$. Specifically, we have:
-$$\mathcal{P} = \left\{P:W(P, P_0) \le \rho\right\}$$</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Reviewer-Qualms-Explained">Reviewer Qualms Explained<a class="anchor-link" href="#Reviewer-Qualms-Explained">¶</a></h2>
-</div>
-</div>
-</div>
+Intuitively, we are minimizing the worst case loss over distributions close to the one our training data was sampled from.&lt;/p&gt;
+&lt;p&gt;Our next step is to characterize $\mathcal{P}$. To do so, the authors use a $\rho$-Wasserstein ball centered at $P_0$. Specifically, we have:
+$$\mathcal{P} = \left\{P:W(P, P_0) \le \rho\right\}$$&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Reviewer-Qualms-Explained"&gt;Reviewer Qualms Explained&lt;a class="anchor-link" href="#Reviewer-Qualms-Explained"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -1083,36 +1049,5 @@ $$\mathcal{P} = \left\{P:W(P, P_0) \le \rho\right\}$$</p>
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-</script>
-                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
-</body>
-</html>
+&lt;/script&gt;
+</summary><category term="python firsts"></category></entry></feed>
